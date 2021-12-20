@@ -4,6 +4,7 @@ create table if not exists `user`(
         last_name	     varchar(255)	 not null,
         `active`         bit(1)          not null,
         username	     varchar(255)	 not null,
+        status  	     varchar(255)	 not null,
         password         varchar(255)    not null,
         primary key (user_id)
 );
